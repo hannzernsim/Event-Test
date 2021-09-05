@@ -1,12 +1,12 @@
 # event_app
 
-Setel assignment for Geofencing app
+Event App
 
 ## Getting Started
 Select target device
 - flutter pub get
+- flutter packages pub run build_runner build --delete-conflicting-outputs
 - flutter run lib/main.dart
 
-1.Input latitude and longitude into TextFields or click on 'Get Current Location' button
-2.Open settings from the top right icon (settings) and enter required fields and click 'SAVE'
-3.Click on 'Check Geofence' button
+1. First Screen will be showing Event Listing
+2. After clicking to each event, will redirect to Event Details
